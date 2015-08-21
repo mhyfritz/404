@@ -1,0 +1,25 @@
+{
+  "name": "404",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "clean": "rm -f bundle.js",
+    "distclean": "npm run clean && rm -rf node_modules"
+  },
+  "author": "Markus Hsi-Yang Fritz",
+  "license": "MIT",
+  "dependencies": {
+    "by": "^0.2.3",
+    "css-loader": "^0.16.0",
+    "dom-style": "0.0.3",
+    "insert": "^1.0.1",
+    "new-element": "0.0.2",
+    "style-loader": "^0.12.3",
+    "vivus": "^0.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^1.11.0"
+  }
+}
