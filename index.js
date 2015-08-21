@@ -5,8 +5,6 @@ var newElement = require('new-element');
 var append = require('insert/append');
 require('./style.css');
 
-console.log(byTag('path'));
-
 new Vivus('mu', { type: 'oneByOne', duration: 200 }, function () {
   style(byTag('path')[0], 'fill', 'white');
   style(document.body, 'background-color', 'black');
