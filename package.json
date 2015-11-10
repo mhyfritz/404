@@ -19,6 +19,8 @@
     "vivus": "^0.2.2"
   },
   "devDependencies": {
+    "autoprefixer": "^6.1.0",
+    "postcss-loader": "^0.7.0",
     "webpack": "^1.11.0"
   }
 }
