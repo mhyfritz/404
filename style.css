@@ -1,9 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:300);
 
 body {
-  text-align: center;
-  margin-top: 75px;
   font-family: 'Raleway', sans-serif;
   font-size: 36px;
   color: #fff;
+}
+
+.container {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
