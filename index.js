@@ -1,12 +1,12 @@
-var Vivus = require('vivus');
-var query = require('by/query');
-var style = require('dom-style');
-var domready = require('domready');
+const Vivus = require('vivus');
+const query = require('by/query');
+const style = require('dom-style');
+const domready = require('domready');
 
 require('./style.css');
 
-domready(function () {
-  new Vivus('mu', { type: 'oneByOne', duration: 200 }, function () {
+domready(() => {
+  new Vivus('mu', { type: 'oneByOne', duration: 200 }, () => {
     style(query('path'), 'fill', 'white');
     style(document.body, 'background-color', 'black');
   });
